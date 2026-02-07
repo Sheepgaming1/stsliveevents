@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="STS Live Events — live event technical services. Sound, lighting, staging and onsite crew support." />
+  <title>STS Live Events</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="STS Live Events home">
+      <img src="assets/logo.png" alt="STS Live Events logo" class="brand__logo" />
+      <span class="brand__text">STS Live Events</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact" class="btn btn--small">Get a Quote</a>
+    </nav>
+
+    <button class="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <h1>Technical Support for Live Events</h1>
+        <p>
+          Sound • Lighting • Staging • Crew Support — reliable, tidy, and calm under pressure.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn" href="#contact">Request a Quote</a>
+          <a class="btn btn--ghost" href="#services">See Services</a>
+        </div>
+
+        <div class="hero__badges" aria-label="Quick info">
+          <div class="badge"><strong>UK</strong><span>Freelance</span></div>
+          <div class="badge"><strong>Fast</strong><span>Turnarounds</span></div>
+          <div class="badge"><strong>Pro</strong><span>Show Ready</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="wrap">
+        <h2>Services</h2>
+        <p class="sub">Pick what you need — day rate, half-day, or per-project.</p>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Sound</h3>
+            <p>Patch, line check, RF basics, monitors/FOH support, system tidy-ups.</p>
+          </article>
+          <article class="card">
+            <h3>Lighting</h3>
+            <p>Rig, focus, patch, cueing support, busking help, practicals & specials.</p>
+          </article>
+          <article class="card">
+            <h3>Stage / Crew</h3>
+            <p>Load-in/out, stage builds, cable management, show running, resets.</p>
+          </article>
+          <article class="card">
+            <h3>Corporate & Theatre</h3>
+            <p>Show calling support, backstage ops, conference AV crew, reliability first.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section--alt">
+      <div class="wrap two">
+        <div>
+          <h2>About</h2>
+          <p>
+            STS Live Events is run by <strong>Shaun Tattersall</strong> — a freelance theatre and live events technician.
+            Friendly, punctual, and focused on making your show run smoothly.
+          </p>
+          <ul class="ticks">
+            <li>Clear comms & tidy work</li>
+            <li>Problem-solving mindset</li>
+            <li>Flexible across venues & formats</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3>Quick Contact</h3>
+          <p class="contactline"><span>📞</span> <a href="tel:+447539430203">07539 430203</a></p>
+          <p class="contactline"><span>✉️</span> <a href="mailto:shaun@stsliveevents.co.uk">shaun@stsliveevents.co.uk</a></p>
+          <p class="contactline"><span>🌐</span> <a href="https://stsliveevents.co.uk" target="_blank" rel="noreferrer">stsliveevents.co.uk</a></p>
+          <p class="small">Available for theatre, corporate, festivals, and one-offs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="wrap">
+        <h2>Recent Work</h2>
+        <p class="sub">Add a few photos/logos here later. For now, a simple placeholder grid.</p>
+
+        <div class="gallery">
+          <div class="thumb">Photo / Venue</div>
+          <div class="thumb">Photo / Venue</div>
+          <div class="thumb">Photo / Venue</div>
+          <div class="thumb">Photo / Venue</div>
+          <div class="thumb">Photo / Venue</div>
+          <div class="thumb">Photo / Venue</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--alt">
+      <div class="wrap two">
+        <div>
+          <h2>Get a Quote</h2>
+          <p class="sub">Send a quick message with the date, venue, and what you need.</p>
+
+          <!-- This uses FormSubmit. Replace the email with yours. -->
+          <form class="form" action="https://formsubmit.co/shaun@stsliveevents.co.uk" method="POST">
+            <input type="hidden" name="_subject" value="New enquiry — STS Live Events" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <!-- Optional: redirect after submit -->
+            <!-- <input type="hidden" name="_next" value="https://YOURDOMAIN/thanks.html" /> -->
+
+            <label>
+              Name
+              <input name="name" autocomplete="name" required />
+            </label>
+
+            <label>
+              Email
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+
+            <label>
+              Phone (optional)
+              <input name="phone" autocomplete="tel" />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="6" required placeholder="Date, venue, event type, what support you need..."></textarea>
+            </label>
+
+            <button class="btn" type="submit">Send Enquiry</button>
+            <p class="small">
+              Prefer email? <a href="mailto:shaun@stsliveevents.co.uk">shaun@stsliveevents.co.uk</a>
+            </p>
+          </form>
+        </div>
+
+        <div class="panel">
+          <h3>Business Details</h3>
+          <p><strong>STS Live Events</strong></p>
+          <p>Shaun Tattersall</p>
+          <p class="small">
+            Sound • Lighting • Staging • Crew Support
+          </p>
+
+          <hr />
+
+          <p class="contactline"><span>📞</span> <a href="tel:+447539430203">07539 430203</a></p>
+          <p class="contactline"><span>✉️</span> <a href="mailto:shaun@stsliveevents.co.uk">shaun@stsliveevents.co.uk</a></p>
+          <p class="contactline"><span>🌐</span> <a href="https://stsliveevents.co.uk" target="_blank" rel="noreferrer">stsliveevents.co.uk</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© <span id="year"></span> STS Live Events. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#top">Top</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
